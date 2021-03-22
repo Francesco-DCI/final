@@ -1,0 +1,28 @@
+@media (max-width:1080px){                  /* TABLET MEDIA QUERY*/
+    .flex-container{
+        background-color: lightpink;
+    }
+    .flex-container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:580px){                   /* MOBILE MEDIA QUERY*/
+    body{
+        margin:15px;
+    }
+    .flex-container{
+        background-color: darkgray;
+        flex-direction: column-reverse;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .flex-item-1, .flex-item-2, .flex-item-3{
+        width:100%;
+        background-color: lightgrey;
+    }
+}

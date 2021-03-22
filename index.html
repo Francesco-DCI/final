@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Luraghi</title>
+    <style>
+    
+     #Title{
+         display: flex;
+         justify-content: center;
+         margin: auto;
+         background-color:gray;
+         color:burlywood ;
+        
+     }
+     .flex-item-1 {
+         display: flex;
+         justify-content: flex-end;
+         background-color: gray;
+         flex-wrap: wrap-reverse;
+         font-style: initial;
+
+
+     }
+     #about {
+         background-color: burlywood;
+         font-size: large;
+
+
+         display: flex;
+                    
+     }
+     .flex-container {
+         display: flex;
+         justify-content: flex-end;
+     }
+     .flex-item-2 {
+         display: flex;
+         height: 450px;
+         width: 320px;
+         padding-right: 10px;
+         margin: auto;
+
+     }
+     .flex-item-3 {
+        display: flex;
+        top: flex;
+        font-style: italic;
+     }
+     #projects {
+         background-color:burlywood;
+         width: auto;
+         height: auto;
+     }
+     .flex-box-2 {
+         display: flex;
+         font-style: italic;
+         font-size: large;
+         background-color: burlywood;
+     }
+     #projects {
+         background-color:gray;
+         display: flex;
+         justify-content: flex-end;
+         flex-wrap: wrap-reverse;
+         font-style: initial
+
+     }
+     #Contact {
+         background-color: burlywood;
+
+
+            
+        }
+        .form {
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 30px;
+        }     
+        
+        
+           
+           
+ </style>
+   
+</head>
+<body>
+    <section>
+    <h1 id="Title">
+        Web-Dev-Final-Project
+    </h1>
+    <flex-box>
+        <h1> About</h1>
+        <div class="flex-item-1">
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About me</a>
+                                   
+            </li>
+            <li>
+                <a href="#projects"> Projects </a>
+            </li>
+            <li>
+                <a href="#Contact"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    </flex-box>
+</section>
+
+<section id="about"> 
+    <div class="flex-container">
+         
+            <img src="Screenshot_20201007_174525_com.android.gallery3d.jpg" class="flex-item-2"> 
+            <p class="flex-item-3">
+                My name is Francesco Luraghi. I´m an aspirant Web-Dev based in Berlin. I´m currently attending DCI and I aim to enter the one year Web-Dev course. 
+            </p>
+             
+          
+        </flex-container>
+    </div>
+</section>
+<header>
+    <h1>
+    Projects
+</h1>
+</header>
+
+<section id="projects">
+    
+<flex-box>
+   
+<nav>
+    <ul>
+        <li>
+            <a href="#about">About me</a>
+                               
+        </li>
+        <li>
+            <a href="#projects"> Projects </a>
+        </li>
+        <li>
+            <a href="#Contact"> Contact</a>
+        </li>
+    </ul>
+</nav>
+</div>
+</flex-box>
+</section>
+<flex-box>
+    <div class="flex-box-2">
+        <p class="projects text">
+            As you can see , I need to acquire a lot of skills. I had no programming knolwedge and experience before joining DCI orientation course. I know there is a lot for me to learn, and that is why I want to join the one year course
+        </p>
+    </div>
+</flex-box>
+</section>
+<h1>
+    Contact
+</h1>
+
+<section id="Contact">
+  <div>
+
+      <flex-box>
+        <div class="flex-item-1">
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About me</a>
+                                   
+            </li>
+            <li>
+                <a href="#projects"> Projects </a>
+            </li>
+            <li>
+                <a href="#Contact"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    </flex-box>
+  </div>
+
+<flex-box class="form">
+    <form action="/www.google.com">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="Address">Address</label>
+        <input type="text" id="address"><br><br>
+        <label for="Email">Email</label>
+        <input type="text" id="email"><br><br>
+        <input type="submit" value="Submit">
+        
+      </form>
+</flex-box>
+</section>
+</body>
+</html>
